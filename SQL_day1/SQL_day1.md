@@ -62,3 +62,71 @@
 ### FLOAT - scientific use (very large numbers)
 
 ### BIT - equivalent to binary (0,1 or NULL)
+
+
+# DATABASE Practice
+
+ USE Northwind
+
+
+ SP_HELP Customers
+
+ USE jonholder_db
+
+ ```CREATE TABLE jon_film_table
+  (    
+   film_id INT IDENTITY (1,1),
+   film_name VARCHAR(20),
+   film_type VARCHAR (12),
+   date_of_release DATETIME,
+   director VARCHAR (20),
+   writer VARCHAR (20),
+   star VARCHAR (20),
+   film_language VARCHAR(10),
+   official_website VARCHAR (50),
+   plot_summary VARCHAR (MAX)
+
+ );
+ /* bla bla* /
+ -- bla bla--
+
+ SP_HELP jon_film_table
+
+
+DROP TABLE jon_film_table;
+
+ SP_HELP jon_film_table;
+
+ ALTER TABLE jon_film_table ADD film_id INT;
+
+ SP_HELP jon_film_table
+
+ ALTER TABLE jon_film_table
+ DROP COLUMN film_type;
+
+ SP_HELP jon_film_table
+
+ (
+     film_name, director, plot_summary
+ )
+ VALUES
+(    'THE MATRIX', 'WACHOWSKI BROTHERS', 'A computer hacker learns from mysterious rebels about the true nature of his  reality and his role in the war against its controllers.'
+
+ ),
+ (
+    'MATRIX REVOLUTIONS', 'WACHOWSKI BROTHERS','A    computer  hacker is back in the war controllers fighting them to the ultimate city of Zion.'
+ )
+
+
+ SELECT* FROM jon_film_table
+
+ ALTER TABLE jon_film_table
+ DROP COLUMN film_id
+
+ ALTER TABLE jon_film_table
+ DROP COLUMN film_name
+
+ ALTER TABLE jon_film_table
+ ADD film_name VARCHAR(20);
+
+ SP_HELP  ```
