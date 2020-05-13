@@ -66,12 +66,12 @@
 
 # DATABASE Practice
 
- USE Northwind
+ ## USE Northwind
 
 
- SP_HELP Customers
+ ##SP_HELP Customers
 
- USE jonholder_db
+ ## USE jonholder_db
 
  ```CREATE TABLE jon_film_table
   (    

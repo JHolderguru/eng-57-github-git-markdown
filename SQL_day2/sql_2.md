@@ -140,7 +140,7 @@ SELECT ProductName, UnitPrice
 FROM Products
 WHERE UnitsInStock >0 AND UnitPrice > 29.99
 ```
-### So
+### So WILD CARDS (%, _ , [charlist] , [^charlist])
 ```
 SELECT DISTINCT cust.Country
 FROM Customers cust
