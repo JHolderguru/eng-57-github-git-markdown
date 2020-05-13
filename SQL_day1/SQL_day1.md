@@ -73,7 +73,8 @@
 
  ## USE jonholder_db
 
- ```CREATE TABLE jon_film_table
+ ```SQL 
+ CREATE TABLE jon_film_table
   (    
    film_id INT IDENTITY (1,1),
    film_name VARCHAR(20),
@@ -87,7 +88,7 @@
    plot_summary VARCHAR (MAX)
 
  );
- /* bla bla* /
+ /* bla bla */
  -- bla bla--
 
  SP_HELP jon_film_table
