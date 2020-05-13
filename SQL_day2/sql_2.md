@@ -16,7 +16,7 @@
 ### BIT - can only have zero or 1 ,true or false
 
 ### UPDATE function -
-```SQL
+
    SELECT * FROM jon_film_table
    UPDATE jon_film_table
    SET rating=10
@@ -24,10 +24,10 @@
   
 ### Delete function -If you need to remove rows from a table , use the DELETE statement. Beware of leaving out the WHERE clause, this will empty the entire table.
 
-  ```SQL 
+   
   DELETE FROM people
-        WHERE person id=2
-        ```
+        WHERE person id=2 ```
+        
 
 
 # DATABASE Considerations
@@ -61,7 +61,7 @@ dependent another non-key column , which is functinally dependent on the PRIMARY
 
 # Querying an SQL DATABASE
  
-    ```SQL
+    
     SELECT * FROM Customers
     WHERE City='Paris'
     ```
