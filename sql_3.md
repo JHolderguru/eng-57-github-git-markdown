@@ -1,8 +1,6 @@
 # SQL DAY3.
 
 ``` MarkDown
-
-
 ```
 
 ```SQL
